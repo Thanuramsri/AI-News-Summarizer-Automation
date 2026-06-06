@@ -1,36 +1,35 @@
 # AI News Summarizer Automation
 
-## Project Overview
+## Overview
+An automated workflow built using n8n that collects AI news from RSS feeds, summarizes articles using Google Gemini, and sends daily email digests.
 
-An automated AI news aggregation and summarization workflow built using n8n.
-
-The workflow fetches AI news from RSS feeds, aggregates articles, summarizes them using Google Gemini, and automatically sends the summary through Gmail.
+## Features
+- RSS feed ingestion
+- Automated article aggregation
+- Gemini-powered summarization
+- Scheduled execution
+- Gmail integration
 
 ## Workflow Architecture
 
 Schedule Trigger
-→ RSS Feed Reader
+→ RSS Feed
 → Data Aggregator
-→ Google Gemini
+→ Gemini AI
 → Gmail
 
-## Features
-
-- Automated news collection
-- RSS feed integration
-- Gemini-powered summarization
-- Scheduled execution
-- Email automation
-- No-code workflow development
-
-## Technologies Used
-
+## Tech Stack
 - n8n
 - Google Gemini
 - RSS Feed
 - Gmail
 - Prompt Engineering
 
-## Results
+## Screenshots
+(Add workflow screenshots here)
 
-The system automatically generates concise AI news digests and delivers them via email, reducing manual effort required to track AI developments.
+## Future Enhancements
+- Store summaries in Google Sheets
+- React dashboard
+- Sentiment analysis
+- Multi-category news filtering
